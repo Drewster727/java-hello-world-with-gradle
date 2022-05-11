@@ -56,9 +56,3 @@ dependencies {
     testCompile "junit:junit:4.12"
 }
 // end::dependencies[]
-
-// tag::wrapper[]
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
-}
-// end::wrapper[]
