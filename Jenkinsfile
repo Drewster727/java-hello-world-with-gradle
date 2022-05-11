@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Test') {
             agent {
-                label 'java'
                 docker {
                     image 'openjdk:11.0.15-slim'
+                    label 'java'
                 }
             }
             steps {
