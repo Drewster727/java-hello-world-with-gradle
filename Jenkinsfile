@@ -17,7 +17,7 @@ pipeline {
              }              
              post {
                  always {
-                     # send message
+                     sh 'echo done!'
                  }
              }
          }
