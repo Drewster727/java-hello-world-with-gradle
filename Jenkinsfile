@@ -17,7 +17,7 @@ pipeline {
              }              
              post {
                  always {
-                     jiraSendBuildInfo site: 'bashsquad.atlassian.net'
+                     # send message
                  }
              }
          }
